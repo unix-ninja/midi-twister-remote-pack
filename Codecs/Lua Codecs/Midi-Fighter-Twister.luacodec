@@ -1,0 +1,61 @@
+--
+-- MIDI Fighter Twister Remote Codec
+--   By: Unix-Ninja
+--
+version={1,0,0}
+
+function remote_supported_control_surfaces()
+  info = "MIDI Fighter Twister"
+--  action = "Only select an Out Port if your MIDI controller is prepared to receive from Reason the same CC it's sending to Reason, else leave the Out Port as 'Not selected'!"
+  local surfaces =
+  {
+   {
+	manufacturer="DJTT",
+	model="MIDI Fighter Twister",
+	source="MIDI-Fighter-Twister.lua",
+	picture="MIDI-Fighter-Twister.png",
+	in_ports={{description="In Port", optional=false}},
+	out_ports={{description="Out Port", optional=true}},
+	setup_info_text=info,
+	setup_user_action_text=action,
+	has_keyboard=false
+    }
+  }
+  return surfaces
+end
+
+-- 20170101 /< V.1.0.0
+
+
+-- ------------------------------------------------------------------------
+--                                                                         
+-- Codec by Unix-Ninja                                           
+--                                                                         
+-- https://www.unix-ninja.com                                
+--                                                                         
+-- Permission is given by the author to freely use this Codec for personal 
+-- use.                                                                    
+--                                                                         
+-- Any commercial use, distribution or inclusion of this Codec in any other
+-- Codec packs, libraries or software products needs an express permission 
+-- from the author. Please contact him at Koshdukai@gmail.com              
+--                                                                         
+-- If any of the algorithms used in this Codec are used in your Codecs,    
+-- please give credit where due to the author or any future contributors.  
+--                                                                         
+-- COVERED CODEC IS PROVIDED UNDER THIS LICENSE ON AN "AS IS" BASIS,       
+-- WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED,              
+-- INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODEC        
+-- IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE          
+-- OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY AND                
+-- PERFORMANCE OF THE COVERED CODEC IS WITH YOU. SHOULD ANY COVERED        
+-- CODEC PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL              
+-- NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF           
+-- WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE          
+-- OF ANY COVERED CODEC IS AUTHORIZED HERE UNDER, EXCEPT UNDER             
+-- THIS DISCLAIMER.                                                        
+-- DEVELOPER OR ANY OTHER FUTURE CONTRIBUTOR) ASSUME THE COST OF ANY       
+--                                                                         
+-- Use at your own risk!                                                   
+--                                                                         
+-- ------------------------------------------------------------------------

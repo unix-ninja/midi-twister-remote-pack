@@ -1,0 +1,196 @@
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	DJTT
+Control Surface Model	MIDI Fighter Twister
+Map Version	1.0.0
+
+//
+// MIDI Fighter Twister Remote Map
+// by Unix-Ninja
+//
+//< 20170101	V.1.0.0 / Codec V.1.0.0
+
+Scope	Propellerheads	Master Keyboard
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Scope	Korg	jp.co.korg.Polysix
+Map	CC 00		VCF CUTOFF
+Map	CC 01		VCF RESONANCE
+Map	CC 02		VCF EG INTENSITY
+Map	CC 03		VCF KBD TRACK
+Map	CC 04		UNISON DETUNE
+Map	CC 05		UNISON SPREAD
+Map	CC 06		ANALOG
+Map	CC 07		VCA ATTENUATOR
+Map	CC 12		EG ATTACK
+Map	CC 13		EG DECAY
+Map	CC 14		EG SUSTAIN
+Map	CC 15		EG RELEASE
+Map	CC 16		VCO OCTAVE
+Map	CC 17		VCO WAVE FORM
+Map	CC 18		VCO PWM ADJUST
+Map	CC 19		VCO PWM SPEED
+Map	CC 20		VCO VIBRATO INT
+Map	CC 24		EM1 VCO PW
+Map	CC 25		EM1 VCF CUTOFF
+Map	CC 26		EM1 VCA GAIN
+Map	CC 27		EM1 MG LEVEL
+Map	CC 28		EM2 VCO PW
+Map	CC 29		EM2 VCF CUTOFF
+Map	CC 30		EM2 VCA GAIN
+Map	CC 31		EM2 MG LEVEL
+Map	CC 32		FX MODE
+Map	CC 33		FX SPREAD
+Map	CC 34		FX SPEED
+Map	CC 35		PITCH BEND RANGE
+Map	CC 36		MG FREQUENCY
+Map	CC 37		MG DELAY TIME
+Map	CC 38		MG LEVEL
+Map	CC 39		ARP TIMES
+Map	CC 40		TRANSPOSE
+Map	CC 41		TUNE
+Map	CC 42		PAN
+Map	CC 43		VOLUME
+
+Scope	Blamsoft, Inc.	com.blamsoft.Viking
+Map	CC 00		cutoff
+Map	CC 01		resonance
+Map	CC 02		spacing
+Map	CC 03		filter amount
+Map	CC 04		filter attack
+Map	CC 05		filter decay
+Map	CC 06		filter sustain
+Map	CC 07		filter release
+Map	CC 08		noise amount
+Map	CC 12		vol attack
+Map	CC 13		vol decay
+Map	CC 14		vol sustain
+Map	CC 15		vol release
+Map	CC 17		osc 1 octave
+Map	CC 18		osc 1 wave
+Map	CC 19		osc 1 mix
+Map	CC 20		osc 2 freq sensitive
+Map	CC 21		osc 2 octave
+Map	CC 22		osc 2 wave
+Map	CC 23		osc 2 mix
+Map	CC 24		osc 3 freq sensitive
+Map	CC 25		osc 3 octave
+Map	CC 26		osc 3 wave
+Map	CC 27		osc 3 mix
+Map	CC 28		lfo rate
+Map	CC 29		lfo sync
+Map	CC 30		fine tune
+Map	CC 31		glide rate
+Map	CC 32		mod wheel source
+Map	CC 33		mod wheel destination
+Map	CC 34		mod wheel shaping
+Map	CC 35		mod wheel amount
+Map	CC 36		on source
+Map	CC 37		on destination
+Map	CC 38		on shaping
+Map	CC 39		on amount
+
+Scope	Propellerheads	Malstrom Graintable Synthesizer
+
+Map	CC 00		Filter A Freq
+Map	CC 01		Filter A Resonance
+Map	CC 02		Filter A Mode
+Map	CC 04		Filter Env Attack
+Map	CC 05		Filter Env Decay
+Map	CC 06		Filter Env Sustain
+Map	CC 07		Filter Env Release
+Map	CC 08		Filter B Freq
+Map	CC 09		Filter B Resonance
+Map	CC 10		Filter B Mode
+Map	CC 12		Oscillator A Octave
+Map	CC 13		Oscillator B Octave
+Map	CC 16		Oscillator A Motion
+Map	CC 17		Oscillator A Index
+Map	CC 18		Oscillator A Shift
+Map	CC 19		Oscillator A Gain
+Map	CC 20		Oscillator B Motion
+Map	CC 21		Oscillator B Index
+Map	CC 22		Oscillator B Shift
+Map	CC 23		Oscillator B Gain
+Map	CC 24		Oscillator A Attack
+Map	CC 25		Oscillator A Decay
+Map	CC 26		Oscillator A Sustain
+Map	CC 27		Oscillator A Release
+Map	CC 28		Oscillator B Attack
+Map	CC 29		Oscillator B Decay
+Map	CC 30		Oscillator B Sustain
+Map	CC 31		Oscillator B Release
+Map	CC 32		Modulator A Rate
+Map	CC 33		Modulator A To Pitch
+Map	CC 34		Modulator A To Index
+Map	CC 35		Modulator A To Shift
+Map	CC 36		Modulator B Rate
+Map	CC 37		Modulator B To Motion
+Map	CC 38		Modulator B To Level
+Map	CC 39		Modulator B To Filter
+Map	CC 40		Filter Env Amount
+Map	CC 41		Shaper Amount
+Map	CC 42		Spread Amount
+Map	CC 43		Master Level
+
+Scope	Propellerheads	Thor Polysonic Synthesizer
+
+Map	CC 00		Filter 1 Freq
+Map	CC 01		Filter 1 Res
+Map	CC 02		Filter 1 Drive
+Map	CC 04		Filter Env Attack
+Map	CC 05		Filter Env Decay
+Map	CC 06		Filter Env Sustain
+Map	CC 07		Filter Env Release
+Map	CC 08		Filter 2 Freq
+Map	CC 09		Filter 2 Res
+Map	CC 10		Filter 2 Drive
+Map	CC 12		Amp Env Attack
+Map	CC 13		Amp Env Decay
+Map	CC 14		Amp Env Sustain
+Map	CC 15		Amp Env Release
+Map	CC 16		Osc 1 Oct
+Map	CC 17		Osc 1 Semi
+Map	CC 18		Osc 1 Tune
+Map	CC 19		Osc 1 Mod
+Map	CC 20		Osc 2 Oct
+Map	CC 21		Osc 2 Semi
+Map	CC 22		Osc 2 Tune
+Map	CC 23		Osc 2 Mod
+Map	CC 24		LFO 1 Rate
+Map	CC 25		LFO 1 Delay
+Map	CC 26		LFO 1 Waveform
+Map	CC 28		LFO 2 Rate
+Map	CC 29		LFO 2 Delay
+Map	CC 32		Osc 3 Oct
+Map	CC 33		Osc 3 Semi
+Map	CC 34		Osc 3 Tune
+Map	CC 35		Osc 3 Mod
+Map	CC 36		Mod Env Attack
+Map	CC 37		Mod Env Decay
+Map	CC 38		Mod Env Loop
+Map	CC 39		Mod Env Release
+Map	CC 40		Delay Time
+Map	CC 41		Delay Feedback
+Map	CC 42		Delay Rate
+Map	CC 43		Delay Amt
+Map	CC 44		Chorus Delay
+Map	CC 45		Chorus Feedback
+Map	CC 46		Chorus Rate
+Map	CC 47		Chorus Amt
+Map	CC 48		Delay Dry Wet
+Map	CC 49		Chorus Dry Wet
+Map	CC 50		Global Env Delay
+Map	CC 51		Global Env Hold
+Map	CC 52		Global Env Attack
+Map	CC 53		Global Env Decay
+Map	CC 54		Global Env Sustain
+Map	CC 55		Global Env Release
+Map	CC 56		Shaper Drive
+Map	CC 57		Amplifier Velocity
+Map	CC 58		Amplifier Gain
+Map	CC 59		Amplifier Pan
+Map	CC 60		Rotary 1
+Map	CC 61		Rotary 2
+
+//< 20170101
